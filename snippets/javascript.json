@@ -24,6 +24,6 @@
       "export default ${2:App}",
       ""
     ],
-    "description": "Log output to console"
+    "description": "yamjs 模板"
   }
 }
