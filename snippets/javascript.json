@@ -1,6 +1,6 @@
 {
-  "yamjs": {
-    "prefix": "yamjs",
+  "yamjs-template": {
+    "prefix": "yamjs-template",
     "body": [
       "import Yam, { Component } from 'yamjs'",
       "@Component({",
