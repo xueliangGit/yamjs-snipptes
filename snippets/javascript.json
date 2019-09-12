@@ -1,0 +1,29 @@
+{
+  "yamjs": {
+    "prefix": "yamjs",
+    "body": [
+      "import Yam, { Component } from 'yamjs'",
+      "@Component({",
+      "  tagName: '${1:tag-name}',",
+      "  style: '',",
+      "  props: []",
+      "})",
+      "class ${2:App} extends Yam {",
+      "  $$data () {",
+      "    return {",
+      "      // your data",
+      "       ${3}",
+      "    }",
+      "  }",
+      "  render () {",
+      "    return <div>",
+      "      <p>is yam componets</p>",
+      "     </div>",
+      "  }",
+      "}",
+      "export default ${2:App}",
+      ""
+    ],
+    "description": "Log output to console"
+  }
+}

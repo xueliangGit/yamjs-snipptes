@@ -22,12 +22,14 @@
     "type": "git",
     "url": "https://github.com/xueliangGit/yamjs-snipptes.git"
   },
-  "snippets": [
-    {
-      "language": "javascript",
-      "path": "./snippets/javascript.json"
-    }
-  ],
+  "contributes": {
+    "snippets": [
+      {
+        "language": "javascript",
+        "path": "./snippets/javascript.json"
+      }
+    ]
+  },
   "scripts": {
     "compile": "tsc -p ./",
     "watch": "tsc -watch -p ./",
