@@ -2,7 +2,7 @@
   "name": "yamjs-snipptes",
   "displayName": "yamjs-snipptes",
   "description": "",
-  "version": "0.0.8",
+  "version": "0.0.7",
   "engines": {
     "vscode": "^1.38.0"
   },
